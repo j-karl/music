@@ -129,7 +129,7 @@ $(function(){
 			var v = disX / duan.width();
 			v = (v>1)?1:v;
 			v = (v<0)?0:v;
-			audio.volume = v;		
+			audio.volume = v;
 		})
 		$(document).on("mouseup",function(){
 			duan.removeClass("moving");
